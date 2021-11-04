@@ -1,0 +1,27 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "A CLI tool that open files related to your git workflow on VS Code.",
+  "main": "./bin/index.js",
+  "bin": {
+    "iris": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "CLI",
+    "iris",
+    "git",
+    "VS Code"
+  ],
+  "author": "Gautam Arora <gautamarora6248@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
