@@ -33,6 +33,6 @@ program.version(
   '-v, --version',
   'output the current version'
 );
-program.name('iris');
+program.name('nix');
 program.usage('<command>');
 program.addHelpCommand(false);

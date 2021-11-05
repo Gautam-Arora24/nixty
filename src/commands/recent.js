@@ -13,7 +13,15 @@ async function openRecentFiles() {
   const res = await exec(
     `code . $(git diff-tree --root --no-commit-id --name-only -r HEAD)`
   );
-  console.log('Woah! Files successfully opened');
+  if (res.stderr) {
+    console.log(error(`Could not open project :-(`));
+    console.log(
+      error(
+        `Make sure that code command is installed properly in your machine.`
+      )
+    );
+    console.log(error(`${res.stderr}`));
+  } else console.log('Opening all files...');
 }
 
 module.exports = openRecentFiles;

@@ -24,8 +24,7 @@ async function openStagedFiles() {
   if (res.stderr) {
     console.log(error(`Unable to open the project :-(`));
     console.log(error(`${res.stderr}`));
-  }
-  console.log('Woah! Files successfully opened');
+  } else console.log('Opening all files...');
 }
 
 module.exports = openStagedFiles;

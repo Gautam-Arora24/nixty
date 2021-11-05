@@ -25,9 +25,14 @@ async function openCommittedFiles(commitId) {
     `code . $(git diff-tree --root --no-commit-id --name-only -r ${commitId})`
   );
   if (res.stderr) {
+    console.log(error(`Could not open project :-(`));
+    console.log(
+      error(
+        `Make sure that code command is installed properly in your machine.`
+      )
+    );
     console.log(error(`${res.stderr}`));
-  }
-  console.log(`Woah! Files successfully opened`);
+  } else console.log(`Opening all files...`);
 }
 
 module.exports = openCommittedFiles;

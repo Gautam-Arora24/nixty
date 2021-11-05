@@ -1,17 +1,18 @@
 {
-  "name": "iris",
-  "version": "1.0.0",
+  "name": "nixty",
+  "version": "1.0.1",
   "description": "A CLI tool that open files related to your git workflow on VS Code.",
+  "repository": "Gautam-Arora24/nixty",
   "main": "./bin/index.js",
   "bin": {
-    "iris": "./bin/index.js"
+    "nix": "./bin/index.js"
   },
   "scripts": {
     "start": "node src/index.js"
   },
   "keywords": [
     "CLI",
-    "iris",
+    "nixty",
     "git",
     "VS Code"
   ],
