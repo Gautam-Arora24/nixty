@@ -1,6 +1,6 @@
 # nixty
 
-> A CLI tool that open files related to your git workflow on VS Code. Use `nix stage` command to open all the files that are present in your staging area. Use `nix recent` command to open files that were changed in the recent commit and use `nix commit <commitId>` to open files that were changed in a particular commit id.
+A CLI tool that open files related to your git workflow on VS Code. Use `nix stage` command to open all the files that are present in your staging area. Use `nix recent` command to open files that were changed in the recent commit and use `nix commit <commitId>` to open files that were changed in a particular commit id.
 
 <br/></br>
 [![NPM](https://img.shields.io/npm/v/nixty.svg)](https://www.npmjs.com/package/resize-observer-hook)
@@ -22,13 +22,13 @@ npm install -g nixty
 
 `nix` is the name of the CLI that users will be using to type the commands.
 
-### Open staged files
+### Open staged files 🙌🏻
 
     Open all the staged files (if present).
 
     nix stage
 
-### Open committed files
+### Open committed files 🤘🏻
 
     Open files that were committed in a particular commit hash.
 
@@ -36,7 +36,7 @@ npm install -g nixty
 
     Note ⚠️ - <commit id> is a required argument which must be provided while running the above command.
 
-### Open recent files
+### Open recent files ✌🏻
 
     Open files that were committed in the recent commit.
 
@@ -63,4 +63,4 @@ When you're done working on your changes, submit a PR with the details of the cu
 
 ## License
 
-MIT © [Gautam-Arora24](https://github.com/Gautam-Arora24), and [the contributors](https://github.com/Gautam-Arora24/resize-observer-hook/graphs/contributors).
+ISC © [Gautam-Arora24](https://github.com/Gautam-Arora24),
