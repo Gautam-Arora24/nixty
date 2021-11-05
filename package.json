@@ -1,6 +1,6 @@
 {
   "name": "nixty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool that open files related to your git workflow on VS Code.",
   "repository": "Gautam-Arora24/nixty",
   "main": "./bin/index.js",
