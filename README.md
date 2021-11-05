@@ -2,6 +2,8 @@
 
 A CLI tool that open files related to your git workflow on VS Code. Use `nix stage` command to open all the files that are present in your staging area. Use `nix recent` command to open files that were changed in the recent commit and use `nix commit <commitId>` to open files that were changed in a particular commit id.
 
+ Note ⚠️ - Currently this package works only on UNIX/LINUX based systems.
+
 <br/></br>
 [![NPM](https://img.shields.io/npm/v/nixty.svg)](https://www.npmjs.com/package/resize-observer-hook)
 [![NPM](https://img.shields.io/npm/dt/nixty?label=npm%20downloads&style=flat-square)](https://www.npmjs.org/package/nixty)
