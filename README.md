@@ -8,7 +8,7 @@ A CLI tool that open files related to your git workflow on VS Code. Use `nix sta
 [![NPM](https://img.shields.io/npm/v/nixty.svg)](https://www.npmjs.com/package/resize-observer-hook)
 [![NPM](https://img.shields.io/npm/dt/nixty?label=npm%20downloads&style=flat-square)](https://www.npmjs.org/package/nixty)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![contributions welcome to projectman](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](https://github.com/saurabhdaware/projectman/issues)
+[![contributions welcome to projectman](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](https://github.com/Gautam-Arora24/nixty/issues)
 
 <p align="center"><img width=800 alt="Nixty explanation video" src="./media/presentation.gif"></p>
 
