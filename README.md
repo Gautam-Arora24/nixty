@@ -1,4 +1,7 @@
 # nixty
+<p align="center">
+  <img src="./media/library-logo.png">
+</p>
 
 A CLI tool that open files related to your git workflow on VS Code. Use `nix stage` command to open all the files that are present in your staging area. Use `nix recent` command to open files that were changed in the recent commit and use `nix commit <commitId>` to open files that were changed in a particular commit id.
 
